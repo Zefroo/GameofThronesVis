@@ -9,9 +9,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
+# Game of Thrones Visualization Project
+
+
+
+
+
+
 Syntax highlighted code block
 
-# Header 1
+# Game of Thrones Visualizaiton Proejct
 ## Header 2
 ### Header 3
 
