@@ -1,0 +1,175 @@
+﻿Id,Label,Allegiance 
+0,Addam Marbrand,House Lannister
+1,Aeron Greyjoy,House Greyjoy
+2,Alliser Thorne,Night's Watch
+3,Alton Lannister,House Lannister
+4,Amory Lorch,House Lannister
+5,Anguy,Other
+6,Anya Waynwood,House Arryn
+7,Areo Hotah,House Martell
+8,Arthur Dayne,Other
+9,Arya Stark,House Stark
+10,Balon Greyjoy,House Greyjoy
+11,Barristan Selmy,House Targaryen
+12,Benjen Stark,Night's Watch
+13,Beric Dondarrion,Other
+14,Black Walder,House Frey
+15,Blackfish,House Tully
+16,Bran Stark,House Stark
+17,Brienne of Tarth,House Stark
+18,Bronn,House Lannister
+19,Catelyn Stark,House Stark
+20,Cersei Lannister,House Lannister
+21,Craster,Free Folk
+22,Daario Naharis,House Targaryen
+23,Daenerys Targaryen,House Targaryen
+24,Dagmer Cleftjaw,House Greyjoy
+25,Davos Seaworth,House Baratheon
+26,Dickon Frey,House Frey
+27,Dolorous Edd,Night's Watch
+28,Doran Martell,House Martell
+29,Doreah,House Targaryen
+30,Eddard Stark,House Stark
+31,Eddard Stark,
+32,Eddison Tollett,Night's Watch
+33,Edmure Tully,House Tully
+34,Ellaria Sand,House Martell
+35,Euron Greyjoy,House Greyjoy
+36,Gared,Night's Watch
+37,Gendry Baratheon,House Baratheon
+38,Gilly,Free Folk
+39,Grand Maester Pycelle,House Baratheon
+40,Grenn,Night's Watch
+41,Gretjon Umber,House Stark
+42,Grey Worm,House Targaryen
+43,High Septon,Other
+44,High Sparrow,Other
+45,Hizdahr Zo Loraq,Other
+46,Hodor,House Stark
+47,Hot Pie,Other
+48,Illyrio Mopatis,House Targaryen
+49,Irri,House Targaryen
+50,Izembaro,Other
+51,Jaime Lannister,House Lannister
+52,Janos Slynt,Night's Watch
+53,Jaqen H'gar,Other
+54,Jeor Mormont,Night's Watch
+55,Joffrey Baratheon,House Baratheon
+56,Jojen Reed,House Stark
+57,Jon Snow,House Stark
+58,Jorah Mormont,House Targaryen
+59,Jory Cassel,House Stark
+60,Karl Tanner,Night's Watch
+61,Karsi,Free Folk
+62,Kevan Lannister,House Lannister
+63,Khal Drogo,Other
+64,Khal Moro,Other
+65,Kinvara,House Targaryen
+66,Kovarro,House Targaryen
+67,Kraznys Mo Nakloz,Other
+68,Lady Crane,Other
+69,Lancel Lannister,Other
+70,Leaf,Other
+71,Lem Lemoncloak,Other
+72,Loboda,Free Folk
+73,Lommy Greenhands ,Other
+74,Loras Tyrell,House Tyrell
+75,Lord Baelish,Other
+76,Lord of Bones,Free Folk
+77,Lothar Frey,House Frey
+78,Lyanna Mormont,House Stark
+79,Lysa Arryn,House Arryn
+80,Maester Aemon,Night's Watch
+81,Maester Cressen,House Baratheon
+82,Maester Luwin,House Stark
+83,Maester Qyburn,House Lannister
+84,Maester Wolkan,House Bolton
+85,Malko,Other
+86,Mance Rayder,Free Folk
+87,Margaery Tyrell,House Tyrell
+88,Marwyn,Other
+89,Matthos Seaworth,House Baratheon
+90,Meera Reed,House Stark
+91,Melara Heatherspoon,Other
+92,Melessa Florent,House Lannister
+93,Melisandre,Other
+94,Meryn Trant,House Lannister
+95,Mirri Maz Duur,Other
+96,Missandei,House Targaryen
+97,Mossador,House Targaryen
+98,Myranda ,House Bolton
+99,Myrcella Baratheon,House Baratheon
+100,Nymeria Sand,House Martell
+101,Obara Sand,House Martell
+102,Oberyn Martell,House Martell
+103,Olenna Tyrell,House Tyrell
+104,Olly,Night's Watch
+105,Olyvar,Other
+106,Orell,Free Folk
+107,Osha,Free Folk
+108,Podrick Payne,Other
+109,Polliver,Other
+110,Pyatt Pree,Other
+111,Qhorin,Night's Watch
+112,Qotho,Other
+113,Quaithe,Other
+114,Quorin,Night's Watch
+115,Rakharo,House Targaryen
+116,Ralf Kenning,House Greyjoy
+117,Ramsay Bolton,House Bolton
+118,Randyll Tarly,House Lannister
+119,Rast,Night's Watch
+120,Ray,Other
+121,Razdal mo Eraz,Other
+122,Renly Baratheon,House Baratheon
+123,Rennick,House Lannister
+124,Rickard Karstark,Other
+125,Rickon Stark,House Stark
+126,Robb Stark,House Stark
+127,Robert Baratheon,House Baratheon
+128,Robett Glover,House Stark
+129,Robin Arryn,House Arryn
+130,Rodrick Cassell,House Stark
+131,Roose Bolton,House Bolton
+132,Rorge,Night's Watch
+133,Ros,Other
+134,Roslin Tully,House Tully
+135,Salladhor Saan,Other
+136,Samwell Tarly,Night's Watch
+137,Sandor Clegane,Other
+138,Sansa Stark,House Stark
+139,Selyse Baratheon,House Baratheon
+140,Septa Unella,Other
+141,Septa Mordane,House Stark
+142,septa unella,
+143,Dontos Hollard,House Baratheon
+144,Shae,Other
+145,Shireen Baratheon,House Baratheon
+146,Stannis Baratheon,House Baratheon
+147,Styr,Free Folk
+148,Syrio Forel,House Baratheon
+149,Talisa Stark,House Stark
+150,The Mountain,House Lannister
+151,Theon Greyjoy,House Targaryen
+152,Thoros of Myr,Other
+153,Three-Eyed Raven,Other
+154,The Tickler,Other
+155,Tommen Baratheon,House Baratheon
+156,Tormund,Free Folk
+157,Trystane Martell,House Martell
+158,Tywin Lannister,House Lannister
+159,Tycho Nestoris,Other
+160,Tyene Martell,House Martell
+161,Tyrion Lannister,House Targaryen
+162,Varys,House Targaryen
+163,Violet,House Bolton
+164,Viserys Targaryen,House Targaryen
+165,Walda Frey,House Bolton
+166,Walder Frey,House Frey
+167,Waymar Royce,Night's Watch
+168,Will,Night's Watch
+169,Xaro Xhoan Daxos,Other
+170,Yara Greyjoy,House Greyjoy
+171,Ygritte,Free Folk
+172,Yohn Royce,House Arryn
+173,Yoren,Night's Watch
