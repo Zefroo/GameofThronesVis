@@ -1,8 +1,12 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
 ## Game of Thrones Visualization Project
 
 By: Paul Khawja
 
-<iframe src="https://zefroo.github.io/GameofThronesVis/network/" width="80%" height="600px"></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://zefroo.github.io/GameofThronesVis/network" allowfullscreen></iframe>
+</div>
 
 You can use the [editor on GitHub](https://github.com/Zefroo/GameofThronesVis/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
