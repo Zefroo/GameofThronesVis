@@ -22,9 +22,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#background">Background</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#cutddv">CUT/DDV</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#data">Data</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Visuals">Visualizations</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#visuals">Visualizations</a></li>
                     </ul>
                 </div>
             </div>
@@ -66,7 +65,7 @@
                 <br/>
                 <p>The scope of this project was limited to what was within this data-set, though I did have to do plenty of cleaning and data processing as it was quite limited and a bit poorly put together. This data processing and visualizing involved using Python data science libraries, Gephi, Excel tools, and Tableau. This isn’t a very serious visualization but it may be interesting for Game of Thrones fans.</p> 
                 <br/>
-                <h2 text-uppercase>The Dataset - Variables and Processing</h2>
+                <h2 text-uppercase id="data">The Dataset - Variables and Processing</h2>
                 <br/>
                 <p>The original data-set was stored in a .csv file with several variables related to the script lines and who they were spoken by. For this project I only used the following variables from the dataset:</p>
                 <ul>
@@ -82,28 +81,20 @@
                 </ul>
                 <br/>
                 <p>My first step in data cleaning was going through the data set in MS Excel and filtering out names that represented non-meaningful characters (e.g. “man”, “commoner”, “guard”, etc.), and sentences spoken by multiple unidentified characters (e.g. “all”, “together”). I also did some manual work to add in the “allegiance” column, which was not too time-consuming after cleaning up. This was based on my knowledge of the series at the end of season 7, and it refers to the most important group/house/organization that the character was allied to at the end of season 7. Due to not wanting too many categories (which will be difficult to visualize), after setting allegiances I combined many that only represented a small number of characters into the “other” category. The removal of some rows did mean that I was breaking up the script somewhat, which would be a slight problem later when developing the network, but I figured by filtering out edges with very low weights (i.e. they characters barely appeared together), I could remove most connections that were created by removing lines.</p>
-    
+                <br/>
+                <p>After sorting out the .CSV file in MS Excel, I did additional data processing in Python to get word counts per sentence and sentiment of sentence (using the <a href="https://textblob.readthedocs.io/en/dev/">TextBlob package</a>). I also used Python to create a file for nodes and edges to later use in Gephi. Python and other files are all available on this <a href="https://github.com/Zefroo/GameofThronesVis">project’s GitHub</a>.  
             </div>
         </section>                                                
         <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
+        <section class="page-section bg-primary text-white mb-0" id="visuals">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="text-center text-uppercase text-white">About</h2>
+                <h2 class="text-center text-uppercase text-white">Visualizations</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/"><i class="fas fa-download mr-2"></i>Free Download!</a>
                 </div>
             </div>
         </section>
