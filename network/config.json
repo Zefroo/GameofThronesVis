@@ -8,12 +8,12 @@
     "text": "Paul K"
   },
   "text": {
-    "more": "",
+    "more": "A network of Game of Thrones characters and the characters they have been in conversation with. \n\nData is based on a script data-set from seasons 1 through 7. Some data cleaning has been done on the original set to make character names consistent,\nadd allegiance ties, among other things. ",
     "intro": "A network of Game of Thrones characters and the characters they have been in conversation with. ",
     "title": ""
   },
   "legend": {
-    "edgeLabel": "Encounters",
+    "edgeLabel": "Connections",
     "colorLabel": "House/Allegiance ",
     "nodeLabel": "Character"
   },
