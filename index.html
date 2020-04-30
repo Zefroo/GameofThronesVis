@@ -47,19 +47,27 @@
         <!-- About Section--> 
         <section class="page-section" id="background">
             <div class="container">
-                <h2 class="page-section-heading" text-uppercase>Project Description</h2>
+                <h2 text-uppercase>Project Description</h2>
+                <br/>
                 <p>For this project I created visualizations using a <a href="https://www.kaggle.com/anderfj/game-of-thrones-series-scripts-breakdowns">dataset of scripts</a> from the television series, Game of Thrones. The script only includes data from season 1 through 7, so season 8 was (thankfully) not in there. My visualizations aim to answer a few questions ranging from simple to more complex, such as which characters had the most lines (or words?), to how the sentiment of characters changed over time (i.e. over seasons), and finally, which characters were in scenes together, and how often?</p> 
-                <h3 class="page-section-heading" text-uppercase>Why Game of Thrones?</h3>
+                <br/>
+                <h3 text-uppercase>Why Game of Thrones?</h3>
+                <br/>
                 <p>I watched Game of Thrones (up until the 7th season, and have been avoiding the 8th) and have been quite a fan. There are plenty of visualizations out there that have looked into various questions, likely including some I’m answering here, so this might have not been the most creative choice of data. However, it does give me a wealth of references to compare to and see how my attempt to present this data turned out. There were some key questions I wanted to answer, which lead me to the following problem statements:</p>
-                <h4 class="page-section-heading" text-uppercase>Problem Statements</h3>
+                <br/>
+                <h4 text-uppercase>Problem Statements</h3>
                 <ul>
                     <li>Is there a clear difference when looking at character line count vs. word count? I.e. could some characters who appear to have many lines not necessarily speak at great length?</li>
                     <li>How did sentiment of important characters change across the seasons they were in? Would a sentiment analysis reflect the circumstances each of these characters were in during each season?</li>
                     <li>How connected are Game of Thrones characters? Can we compare these connections across seasons as previously unacquainted characters appear in scenes together?  </li>
                 </ul>
-                <h3 class="page-section-heading" text-uppercase>Scope and Impact</h3>
+                <br/>
+                <h3 text-uppercase>Scope and Impact</h3>
+                <br/>
                 <p>The scope of this project was limited to what was within this data-set, though I did have to do plenty of cleaning and data processing as it was quite limited and a bit poorly put together. This data processing and visualizing involved using Python data science libraries, Gephi, Excel tools, and Tableau. This isn’t a very serious visualization but it may be interesting for Game of Thrones fans.</p> 
-                <h2 class="page-section-heading" text-uppercase>The Dataset - Variables and Processing</h2>
+                <br/>
+                <h2 text-uppercase>The Dataset - Variables and Processing</h2>
+                <br/>
                 <p>The original data-set was stored in a .csv file with several variables related to the script lines and who they were spoken by. For this project I only used the following variables from the dataset:</p>
                 <ul>
                     <li><b>Season:</b> the season the line was spoken in.</li>
@@ -72,6 +80,7 @@
                     <li><b>Word Count:</b> the number of words in the sentence.</li>
                     <li><b>Sentiment:</b> the calculated sentiment polarity of the sentence (from -1 to 1).</li>
                 </ul>
+                <br/>
                 <p>My first step in data cleaning was going through the data set in MS Excel and filtering out names that represented non-meaningful characters (e.g. “man”, “commoner”, “guard”, etc.), and sentences spoken by multiple unidentified characters (e.g. “all”, “together”). I also did some manual work to add in the “allegiance” column, which was not too time-consuming after cleaning up. This was based on my knowledge of the series at the end of season 7, and it refers to the most important group/house/organization that the character was allied to at the end of season 7. Due to not wanting too many categories (which will be difficult to visualize), after setting allegiances I combined many that only represented a small number of characters into the “other” category. The removal of some rows did mean that I was breaking up the script somewhat, which would be a slight problem later when developing the network, but I figured by filtering out edges with very low weights (i.e. they characters barely appeared together), I could remove most connections that were created by removing lines.</p>
     
             </div>
@@ -80,7 +89,7 @@
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="text-center text-uppercase text-white">About</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
