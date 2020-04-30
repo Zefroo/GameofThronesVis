@@ -1,8 +1,6 @@
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 
-## Game of Thrones Visualization Project
 
-By: Paul Khawja
+## Background
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://zefroo.github.io/GameofThronesVis/network" allowfullscreen></iframe>
