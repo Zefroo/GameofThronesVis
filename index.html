@@ -146,16 +146,18 @@
             <div class="container" id="network">
                 <h3 text-uppercase>Part 3: Network of Character Encounters</h3>
                 <br/>
-                <p>....</p>
+                <p>My final visualization is an attempt to show which characters have been in scenes together, and how often they’ve communicated. This called for a network graph where characters are nodes and connections represent shared scenes/conversations. I determined the context, user and task as follows:</p>
                 <ul>
-                    <li><b>Context:</b> These visuals are to understand information about the Game of Thrones script specifically. They would be more exploratory as they look at characters, which there are many of, but should allow for easy filtering by several factors to make specific comparisons.</li>
+                    <li><b>Context:</b> This visual is aimed to let users explore relationships between characters and how often they have communicated with one another.</li>
                     <li><b>User:</b> Anybody who is a fan of game of thrones.</li>
-                    <li><b>Task:</b> Users want to see who has the most screen time speaking and if word count or line count are similar metrics in portraying that.</li>
+                    <li><b>Task:</b> Users want to see which characters have communicated with others and explore which characters have interacted with many others and which have not.</li>
                 </ul>
                 <br/>
-                <p>...</p>
+                <p>I created this visual with Gephi after developing node and edge files in the right format using Python. The idea I had was that characters that were in a row next to one another shared a connection or were in the same scene. Of course, this isn’t entirely accurate as it would capture characters whose lines end or begin a scene as connected. To cull a lot of these connections, I figured filtering out small connections would at least get rid of some of the completely invalid ones. </p>
+                <p>Getting it to look okay in Gephi took a few steps. I installed some plugins to help me both arrange the network in the way I wanted as well as export it as an interactive graph. I started with setting some of the basics in place: allegiance as a modularity class for nodes, distinguished by colors, adjusting edge weights and adding labels, etc. I used some added plugins to change the layout, including one called “Circle Pack” which groups nodes by modularity class. I essentially went back and forth using “Circle Pack” and “Expansion” to resize the packed circles to reduce overlap, and finally used “Label Adjust” so the labels don’t overlap. I then used a plugin called “Sigma.js” to export it as an interactive javascript element that I could embed on a webpage, which is available below:</p>
                 <iframe src="https://zefroo.github.io/GameofThronesVis/network/" class="embed-responsive" height="600px"></iframe>
-                <p>....</p>
+                <br/>
+                <p>Unfortunately, the embedding carries very little of the design choices I made within Gephi, which was incredibly frustrating. It did thankfully display it in the layout I wanted, but edge weight, colors, labels, and sizes are not really aligned with how I had designed it. On the plus side, It does have a good search function to allow users to lookup specific characters, as well as a group selector for allegiances. These search tools are nice because it both lists the connections while also highlighting them visually. </p>
             </div>  
         </section>
         <!-- Copyright Section-->
